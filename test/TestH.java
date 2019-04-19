@@ -21,8 +21,8 @@ public class TestH {
 
         // 增加一条记录
         UserEntity user = new UserEntity();
-        user.setName("李四");
-        user.setSex("男");
+        user.setName("111");
+        user.setSex("222");
         session.save(user);
 
         //提交事务，关于数据库的操作都在上面进行-------------------------------------------
